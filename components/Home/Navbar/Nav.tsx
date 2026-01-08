@@ -31,7 +31,7 @@ const Nav = ({ openNav }: Props) => {
 
   return (
     <div 
-    className={`${cinzelFont.className} fixed ${navBg ? "bg-gray-500" : "bg-black"} top-0 left-0 h-[10vh] z-100 w-full transition-all duration-200`}>
+    className={`${cinzelFont.className} fixed ${navBg ? "bg-black/50 backdrop-blur-md border-b border-white/10" : "bg-black/50"} top-0 left-0 h-[10vh] z-100 w-full transition-all duration-200`}>
         <div className="flex items-center justify-between gap-2 w-[95%] sm:w-[90%] xl:w-[80%] mx-auto h-full">
             {/* Logo */}
             <Link href="/" className="flex items-center shrink-0">
@@ -49,9 +49,23 @@ const Nav = ({ openNav }: Props) => {
             </Link>
 
             {/* Nav Links */}
-            <div className="hidden lg:flex items-center space-x-14 text-yellow-400 uppercase tracking-widest">
+            <div className="hidden lg:flex items-center space-x-14 uppercase tracking-widest">
               {navLinks.map((navLink) => (
-                <Link key={navLink.id} href={navLink.url} className="font-medium hover:text-yellow-300 transition-colors">
+                <Link key={navLink.id} href={navLink.url} 
+                  className="
+                    font-medium
+                    text-[#C9A227]            
+                    hover:text-[#F2D675]      
+                    gold-glow-hover
+                    transition-all duration-200
+                    relative
+                    after:content-['']
+                    after:absolute after:left-0 after:-bottom-1
+                    after:h-0.5 after:w-0
+                    after:bg-[#F2D675]
+                    after:transition-all after:duration-200
+                    hover:after:w-full
+                  ">
                   {navLink.label}
                 </Link>
               ))}
@@ -64,11 +78,11 @@ const Nav = ({ openNav }: Props) => {
                   href="/login"
                   className="
                     flex items-center gap-2
-                    border-2 border-yellow-400
+                    border-2 border-[#D4AF37]
                     px-3 sm:px-4 py-2
                     rounded-full
-                    text-yellow-400
-                    hover:bg-yellow-400 hover:text-black
+                    text-[#D4AF37]
+                    hover:bg-[#D4AF37] hover:text-black
                     transition-all duration-200
                     font-cinzel
                     shrink-0

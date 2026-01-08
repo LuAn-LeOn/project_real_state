@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+/* Glow dorado (doble) para hover */
+.gold-glow-hover {
+  transition: text-shadow 200ms ease, color 200ms ease;
+}
+
+.gold-glow-hover:hover {
+  text-shadow: 0 0 14px rgba(255, 200, 80, 0.25),
+               0 0 30px rgba(255, 200, 80, 0.15);
+}
