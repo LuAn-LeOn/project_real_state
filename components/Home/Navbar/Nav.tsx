@@ -4,42 +4,14 @@ import React, { use, useEffect, useState } from 'react'
 import { FaUserCircle } from 'react-icons/fa';
 import { HiBars3BottomRight } from 'react-icons/hi2';
 import { cinzelFont } from "@/app/fonts";
+import { navLinks } from '@/constant/constant';
 
-const navLinks = [
-  {
-    id: 1,
-    title: "Home",
-    url: "#",
-    label: "Home",
-  },
-  {
-    id: 2,
-    title: "Listing",
-    url: "#listing",
-    label: "Listing",
-  },
-  {
-    id: 3,
-    title: "Property",
-    url: "#property",
-    label: "Property",
-  },
-  {
-    id: 4,
-    title: "Blog",
-    url: "#blog",
-    label: "Blog",
-  },
-  {
-    id: 5,
-    title: "Contact",
-    url: "#contact",
-    label: "Contact",
-  },
+type Props = {
+  openNav: () => void;
+};
 
-];
 
-const Nav = () => {
+const Nav = ({ openNav }: Props) => {
 
   const [navBg, setNavBg] = useState(false);
 
@@ -108,7 +80,7 @@ const Nav = () => {
                   </span>
                 </Link>
                 {/* Burger menu */}
-                <HiBars3BottomRight className="sm:w-8 sm:h-8 w-6 h-6 cursor-pointer text-yellow-400 lg:hidden"/>
+                <HiBars3BottomRight onClick={openNav} className="sm:w-8 sm:h-8 w-6 h-6 cursor-pointer text-yellow-400 lg:hidden"/>
               </div>
             </div>
         </div>
