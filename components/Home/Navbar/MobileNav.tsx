@@ -2,6 +2,10 @@ import React from 'react'
 import Link from 'next/link';
 import { navLinks } from '@/constant/constant';
 import { CgClose } from 'react-icons/cg';
+import { t, type Locale } from "@/src/i18n";
+
+const locale: Locale = "es";
+const msg = t(locale);
 
 type Props = {
   showNav: boolean;
@@ -25,7 +29,7 @@ const MobileNav = ({ showNav, closeNav }: Props) => {
               href={navLink.url}
               className="text-[20px] ml-12 border-b-[1.5px] pd-1 w-fit border-yellow-500 sm:text-[30px] font-medium hover:text-yellow-300 transition-colors"
             >
-              {navLink.label}
+              {msg.nav[navLink.key] as keyof typeof msg.nav}
             </Link>
           )
         })}
