@@ -5,6 +5,11 @@ import { FaUserCircle } from 'react-icons/fa';
 import { HiBars3BottomRight } from 'react-icons/hi2';
 import { cinzelFont } from "@/app/fonts";
 import { navLinks } from '@/constant/constant';
+import { t, type Locale } from "@/src/i18n";
+
+const locale: Locale = "es";
+const msg = t(locale);
+
 
 type Props = {
   openNav: () => void;
@@ -66,7 +71,7 @@ const Nav = ({ openNav }: Props) => {
                     after:transition-all after:duration-200
                     hover:after:w-full
                   ">
-                  {navLink.label}
+                  {msg.nav[navLink.key] as keyof typeof msg.nav}
                 </Link>
               ))}
             </div>
@@ -90,7 +95,7 @@ const Nav = ({ openNav }: Props) => {
                 >
                   <FaUserCircle className="w-5 h-5" />
                   <span className="hidden sm:inline text-sm sm:text-base">
-                    Login / Register
+                    {msg.nav.login}
                   </span>
                 </Link>
                 {/* Burger menu */}

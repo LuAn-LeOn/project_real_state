@@ -1,33 +1,7 @@
 export const navLinks = [
-  {
-    id: 1,
-    title: "Home",
-    url: "#",
-    label: "Home",
-  },
-  {
-    id: 2,
-    title: "Listing",
-    url: "#listing",
-    label: "Listing",
-  },
-  {
-    id: 3,
-    title: "Property",
-    url: "#property",
-    label: "Property",
-  },
-  {
-    id: 4,
-    title: "Blog",
-    url: "#blog",
-    label: "Blog",
-  },
-  {
-    id: 5,
-    title: "Contact",
-    url: "#contact",
-    label: "Contact",
-  },
-
-];
+  { id: 1, key: "home", url: "#" },
+  { id: 2, key: "listing", url: "#listing" },
+  { id: 3, key: "properties", url: "#properties" },
+  { id: 4, key: "blog", url: "#blog" },
+  { id: 5, key: "contact", url: "#contact" },
+] as const;

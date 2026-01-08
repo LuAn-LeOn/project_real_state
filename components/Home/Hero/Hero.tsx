@@ -1,5 +1,9 @@
 import React from "react";
 import { cinzelFont } from "@/app/fonts";
+import { t, type Locale } from "@/src/i18n";
+
+const locale: Locale = "es";
+const msg = t(locale);
 
 const Hero = () => {
   return (
@@ -15,7 +19,7 @@ const Hero = () => {
                 textShadow:
                   "0 0 10px rgba(255, 200, 80, 0.18), 0 0 18px rgba(255, 200, 80, 0.10)",
               }}>
-          Welcome to Puerta Norte
+          {msg.hero.overline}
         </p>
 
         {/* Headline */}
@@ -25,7 +29,7 @@ const Hero = () => {
                 "0 0 14px rgba(255, 200, 80, 0.25), 0 0 30px rgba(255, 200, 80, 0.15)",
             }}
             >
-          Open Doors, <span className="block">Close With Confidence.</span>
+          {msg.hero.headline1} <span className="block">{msg.hero.headline2}</span>
         </h1>
 
         {/* Body */}
@@ -35,7 +39,7 @@ const Hero = () => {
                 textShadow:
                   "0 0 10px rgba(255, 200, 80, 0.18), 0 0 18px rgba(255, 200, 80, 0.10)",
               }}>
-          Curated properties in prime locations. Buy, sell, or rent with a team that guides you from the first visit to the final signature.
+          {msg.hero.body}
         </p>
       </div>
     </div>

@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "overline": "Welcome to Puerta Norte",
+    "headline1": "Open Doors, ",
+    "headline2": "Close With Confidence.",
+    "body": "Curated properties in prime locations. Buy, sell, or rent with a team that guides you from the first visit to the final signature."
+  },
+  "nav": {
+    "home": "Home",
+    "listing": "Listing",
+    "properties": "Properties",
+    "blog": "Blog",
+    "contact": "Contact",
+    "login": "Login / Register"
+  }
+}

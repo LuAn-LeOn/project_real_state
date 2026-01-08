@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "overline": "Bienvenido a Puerta Norte",
+    "headline1": "Abrimos puertas, ",
+    "headline2": "cerramos con confianza.",
+    "body": "Propiedades seleccionadas en ubicaciones clave. Compra, vende o renta con acompañamiento de principio a fin."
+  },
+  "nav": {
+    "home": "Inicio",
+    "listing": "Listado",
+    "properties": "Propiedades",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "login": "Iniciar sesión / Registrarse"
+  }
+}
