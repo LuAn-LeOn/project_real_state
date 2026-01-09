@@ -7,7 +7,7 @@ export const appartmentTypeData = [
   },
   { 
     id: 2,
-    icon: "/images/house.png",
+    icon: "/images/house_2.png",
     type: "House",
     number: 8
   },
@@ -17,10 +17,16 @@ export const appartmentTypeData = [
     type: "Condo",
     number: 5
   },
-  {
+  { 
     id: 4,
-    icon: "/images/logo.png",
-    type: "logo",
-    number: 0
+    icon: "/images/studio.png",
+    type: "Studio",
+    number: 7
+  },
+  {
+    id: 5,
+    icon: "/images/loft2.png",
+    type: "Loft",
+    number: 12
   }
 ];

@@ -37,7 +37,7 @@ const SearchBox = () => {
         <div className="flex items-center ml-8 space-x-6">
             <div className="lg:flex hidden items-center cursor-pointer space-x-2 text-[#C9A227] hover:text-[#F2D675]">
                 <HiAdjustmentsHorizontal className="text-[#C9A227] hover:text-[#F2D675]"/>
-                <p className="text-[#C9A227] hover:text-[#F2D675] font-semibold">Advanced</p>
+                <p className="text-[#C9A227] hover:text-[#F2D675] font-semibold">{msg.searchBox.advancedSearch}</p>
             </div>
             <div className="
                 w-12 h-12 bg-[#C9A227] 

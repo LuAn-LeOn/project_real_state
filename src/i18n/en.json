@@ -14,6 +14,17 @@
     "login": "Login / Register"
   },
   "searchBox": {
-    "placeholder": "Search for properties..."
+    "placeholder": "Search for properties...",
+    "advancedSearch": "Advanced"
+  },
+  "apprtmentType": {
+    "sectionHeading": "Types of Apartments Available",
+    "ctaProperties": "See all properties"
+  },
+  "appartmentTypeCard": {
+    "available": "Available"
+  },
+  "sectionHeading": {
+    "sectionHeading": "Explore our categories and discover carefully selected properties. We guide you from the first visit to closing with confidence."
   }
 }

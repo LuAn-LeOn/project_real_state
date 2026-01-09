@@ -14,6 +14,17 @@
     "login": "Iniciar sesión / Registrarse"
   },
   "searchBox": {
-    "placeholder": "Buscar propiedades..."
+    "placeholder": "Buscar propiedades...",
+    "advancedSearch": "Avanzado"
+  },
+  "apprtmentType": {
+    "sectionHeading": "Tipos de apartamentos disponibles",
+    "ctaProperties": "Ver todas las propiedades"
+  },
+  "appartmentTypeCard": {
+    "available": "Disponibles"
+  },
+  "sectionHeading": {
+    "sectionHeading": "Explora nuestras categorías y descubre propiedades cuidadosamente seleccionadas. Te guiamos desde la primera visita hasta el cierre con confianza."
   }
 }

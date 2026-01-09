@@ -99,7 +99,7 @@ const Nav = ({ openNav }: Props) => {
                   </span>
                 </Link>
                 {/* Burger menu */}
-                <HiBars3BottomRight onClick={openNav} className="sm:w-8 sm:h-8 w-6 h-6 cursor-pointer text-yellow-400 lg:hidden"/>
+                <HiBars3BottomRight onClick={openNav} className="sm:w-8 sm:h-8 w-6 h-6 cursor-pointer text-[#D4AF37] lg:hidden"/>
               </div>
             </div>
         </div>
