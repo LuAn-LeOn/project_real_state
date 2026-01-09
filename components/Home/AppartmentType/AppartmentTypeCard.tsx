@@ -33,7 +33,7 @@ const AppartmentTypeCard = ({ type }: Props) => {
       <div
         className="
           relative
-          w-14 h-14
+          w-40 h-40
           rounded-lg
           overflow-hidden
           bg-black/5
