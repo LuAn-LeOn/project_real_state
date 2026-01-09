@@ -10,7 +10,7 @@ const msg = t(locale);
 
 const AppartmentType = () => {
   return (
-    <div className="pt-24 md:pt-32 pb-16">
+    <div className="bg-[#FBF7EF] pt-24 md:pt-32 pb-16">
         <div className="w-[80%] mx-auto">
             <SectionHeading heading={msg.apprtmentType.sectionHeading} />
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-10 md:mt-20 gap-8 items-center">
