@@ -11,6 +11,9 @@ const config: Config = {
       fontFamily: {
         cinzel: ["var(--font-cinzel)", "serif"],
       },
+      zindex: {
+        '1000': '1000',
+      },
     },
   },
   plugins: [],

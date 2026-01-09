@@ -2,7 +2,7 @@ import React from "react";
 import { cinzelFont } from "@/app/fonts";
 import { t, type Locale } from "@/src/i18n";
 
-const locale: Locale = "es";
+const locale: Locale = "en";
 const msg = t(locale);
 
 const Hero = () => {

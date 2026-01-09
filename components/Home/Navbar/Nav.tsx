@@ -7,7 +7,7 @@ import { cinzelFont } from "@/app/fonts";
 import { navLinks } from '@/constant/constant';
 import { t, type Locale } from "@/src/i18n";
 
-const locale: Locale = "es";
+const locale: Locale = "en";
 const msg = t(locale);
 
 
@@ -71,7 +71,7 @@ const Nav = ({ openNav }: Props) => {
                     after:transition-all after:duration-200
                     hover:after:w-full
                   ">
-                  {msg.nav[navLink.key] as keyof typeof msg.nav}
+                  {msg.nav[navLink.key as keyof typeof msg.nav]}
                 </Link>
               ))}
             </div>
