@@ -12,5 +12,8 @@
     "blog": "Blog",
     "contact": "Contacto",
     "login": "Iniciar sesión / Registrarse"
+  },
+  "searchBox": {
+    "placeholder": "Buscar propiedades..."
   }
 }

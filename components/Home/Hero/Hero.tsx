@@ -1,6 +1,7 @@
 import React from "react";
 import { cinzelFont } from "@/app/fonts";
 import { t, type Locale } from "@/src/i18n";
+import SearchBox from "@/components/Helper/SearchBox";
 
 const locale: Locale = "en";
 const msg = t(locale);
@@ -41,6 +42,10 @@ const Hero = () => {
               }}>
           {msg.hero.body}
         </p>
+        <div className="mt-12 w-full">
+          {/* Search Box Placeholder */}
+          <SearchBox />
+        </div>
       </div>
     </div>
   );
