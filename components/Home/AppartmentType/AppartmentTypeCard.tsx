@@ -37,7 +37,7 @@ const AppartmentTypeCard = ({ type }: Props) => {
   return (
     <div
       className="
-        group rounded-xl border border-black/5 bg-white
+        group rounded-xl border border-black/5 bg-marble
         shadow-[0_8px_24px_rgba(0,0,0,0.08)]
         p-6 transition-all duration-300
         hover:-translate-y-1 hover:shadow-[0_14px_40px_rgba(0,0,0,0.12)]
@@ -47,7 +47,7 @@ const AppartmentTypeCard = ({ type }: Props) => {
       {/* Icon container */}
       <div
         className="
-          w-14 h-14 rounded-xl flex items-center justify-center
+          w-24 h-24 rounded-xl flex items-center justify-center
           bg-black/5 border border-black/5
           transition-all duration-300
           group-hover:border-[#C9A227]/40
@@ -56,7 +56,7 @@ const AppartmentTypeCard = ({ type }: Props) => {
       >
         <Icon
           className="
-            w-7 h-7 text-[#C9A227]
+            w-16 h-16 text-[#C9A227]
             transition-all duration-300
             group-hover:text-[#F2D675]
             group-hover:drop-shadow-[0_0_18px_rgba(255,200,80,0.35)]

@@ -1,12 +1,14 @@
 import React from 'react'
 import Hero from './Hero/Hero';
 import AppartmentType from './AppartmentType/AppartmentType';
+import Properties from './Properties/Properties';
 
 const Home = () => {
   return (
     <div>
         <Hero />
         <AppartmentType/>
+        <Properties />
     </div>
   )
 };
